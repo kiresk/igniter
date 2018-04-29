@@ -1,14 +1,52 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.container {
+  max-width: 980px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.logo {
+  font-size: $font-size-logo;
+  font-family: $font-family-logo;
+}
+
+/* link w/o decoration */
+a.link-no-decoration {
+  text-decoration: none;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
+/* OPACITY-(1/n)*/
+.opacity-2 {
+  /* half */
+  opacity: .5;
+}
+
+.opacity-5 {
+  opacity: .2;
 }
