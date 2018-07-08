@@ -3,6 +3,7 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
+use Throwable;
 
 /**
  * Class OtherTest
