@@ -21,4 +21,8 @@ class DalsiTest extends TestCase
     {
         $this->assertEquals('a', 'ba');
     }
+
+    public function testEsteJeden() {
+        $this->assertTrue(true);
+    }
 }
