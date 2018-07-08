@@ -21,4 +21,9 @@ class ExampleTest extends TestCase
     {
         $this->assertFalse(false);
     }
+
+    public function testEqual()
+    {
+        $this->assertEquals('svetsladkostí', "svetsladkostí");
+    }
 }
