@@ -17,7 +17,9 @@ class OtherTest extends TestCase {
      */
     public function testPermissions()
     {
+        // storage directory
         $this->assertDirectoryIsWritable('../../storage/', 'Directory /storage is not writable or does not exists');
+        // bootstrap/cache directory
         $this->assertDirectoryIsWritable('../../bootstrap/cache/', 'Directory /bootstrap/cache is not writable or does not exists');
     }
 }
