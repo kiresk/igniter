@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
-
 class HomeController extends Controller
 {
 
@@ -13,7 +11,6 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        Product::test();
         return view('front.index');
     }
 }
