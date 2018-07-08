@@ -7,17 +7,16 @@ use Tests\TestCase;
 
 /**
  * Class DatabaseTest
- * Testy suvisiace s databazou
+ * Testy suvisiace s MySQL databazou
  * @package Tests\Unit
  */
-class DatabaseTest extends TestCase
-{
+class DatabaseTest extends TestCase {
     /**
      * Test pripojenia (spravne prihlasovacie udaje)
+     * Ak test spadne, v subore .env nie su spravne nastavene prihlasovacie udaje
      */
     public function testConnection() {
         $this->assertTrue(
-            // SQL ma vratit TRUE, ak vrati FALSE, test spadne a nie su spravne prihlasovacie udaje v .env subore
             DB::statement('SHOW DATABASES')
         );
     }
