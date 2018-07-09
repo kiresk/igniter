@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96328515-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{env('GOOGLE_ANALYTICS')}}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-96328515-2');
+        gtag('config', '{{env('GOOGLE_ANALYTICS')}}');
     </script>
 
     <meta charset="utf-8">
