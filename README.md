@@ -36,7 +36,7 @@ Directory: `/Applications/XAMPP/htdocs/igniter/` or `C:\XAMPP\htdocs\igniter`
 ##### (PHPStorm/IDE) Create FileWatcher with following settings:  
 Program: `scss`  
 Arguments: `--no-cache --update $FileName$:$ProjectFileDir$/public/css/$FileNameWithoutExtension$.css`  
-Output paths to refresh: `$ProjectFileDir$/public/css/$FileNameWithoutExtension$.css`  
+Output paths to refresh: `$ProjectFileDir$/public/css/$FileNameWithoutExtension$.css:$ProjectFileDir$/public/css/$FileNameWithoutExtension$.css.map`  
 ###### What happens when .scss file is changed?
 - FileWatcher is triggered.
 - CSS file is updated from SCSS  

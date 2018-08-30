@@ -1,61 +1,44 @@
 html {
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
-  }
-}
-
+    font-size: 16px; } }
 .container {
-  max-width: 980px;
-}
+  max-width: 980px; }
 
 .pricing-header {
-  max-width: 700px;
-}
+  max-width: 700px; }
 
 .card-deck .card {
-  min-width: 220px;
-}
+  min-width: 220px; }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
-}
+  border-top: 1px solid #e5e5e5; }
 
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
+  border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow {
-  -webkit-box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-}
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
 
 .logo {
   font-size: 2rem;
-  font-family: "Titan One", cursive;
-}
+  font-family: "Titan One", cursive; }
 
 /* link w/o decoration */
-
 a.link-no-decoration {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .valign-bottom {
-  vertical-align: bottom;
-}
+  vertical-align: bottom; }
 
 /* OPACITY-(1/n)*/
-
 .opacity-2 {
   /* half */
-  opacity: .5;
-}
+  opacity: .5; }
 
 .opacity-5 {
-  opacity: .2;
-}
+  opacity: .2; }
 
+/*# sourceMappingURL=app.css.map */
