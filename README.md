@@ -1,5 +1,9 @@
 # igniter
-[![Build Status](https://travis-ci.com/kiresk/igniter.svg?branch=master)](https://travis-ci.com/kiresk/igniter)
+
+###### TravisCI status
+| Production (master)  | Development (dev) |
+|     :---:            |     :---:         |
+| [![Build Status](https://travis-ci.com/kiresk/igniter.svg?branch=master)](https://travis-ci.com/kiresk/igniter)  | [![Build Status](https://travis-ci.com/kiresk/igniter.svg?branch=dev)](https://travis-ci.com/kiresk/igniter)  |
 
 ### What is it?
 igniter is e-commerce web application developed by [kire](https://kire.sk) under GNU GPL (General Public License) using [Laravel](laravel.com) framework.
