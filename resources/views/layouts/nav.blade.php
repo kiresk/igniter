@@ -6,5 +6,5 @@
         <a class="p-2 text-dark" href="#">Support</a>
         <a class="p-2 text-dark" href="#">{{ __('Pricing') }}</a>
     </nav>
-    <a class="btn btn-outline-primary" href="#">Sign up</a>
+    <a class="btn btn-outline-primary" href="{{url('register')}}">{{ __('Sign up') }}</a>
 </div>
