@@ -1,1 +1,1 @@
-<h2>404</h2>
+<h2>404 Stránka nebola nájdená</h2>
