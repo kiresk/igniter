@@ -1,4 +1,4 @@
-# igniter 
+# igniter
 [![Build Status](https://travis-ci.com/kiresk/igniter.svg?branch=master)](https://travis-ci.com/kiresk/igniter)
 
 ### What is it?
