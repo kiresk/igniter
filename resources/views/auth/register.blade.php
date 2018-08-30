@@ -1,5 +1,5 @@
 @extends('master')
 
 @section('content')
-    Registrácia
+    Registrácia nového konta
 @endsection
